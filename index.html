@@ -6,17 +6,26 @@
   <link href="./src/output.css" rel="stylesheet">
 
 </head>
-<body class="p-8 text-slate-700 bg-slate-100">
-  <section class="p-6 bg-white flex flex-col gap-4 rounded-xl md:flex-row md:flex-center md:gap-0 md:flex-auto md:p-0">
-    <img class="rounded-lg md:rounded-br-none md:rounded-tr-none md:w-60 md:object-cover md:rounded-xl" src="images/orange-orchard.png" alt="" />
-    <div>
-      <h1 class="font-semibold text-green-800 text-2xl md:px-6 md:pt-4">Fresh Oranges, Naturally</h1>
-      <p class="mt-2 font-light md:px-6 md:mt-0">
-        Fresh oranges ripen under the sun, ready to be picked and enjoyed. This orchard reflects the
-        simplicity of nature, reminding us of the joy that comes with fresh, wholesome produce grown with
-        care.
-      </p>
-    </div>
-  </section>
-</body>
+  <body class="p-8 bg-slate-100 text-slate-700">
+    <form class="mt-8 max-w-100 mx-auto border border-slate-200 rounded-lg p-8 bg-white">
+      <p class="text-sm font-semibold">Your name</p>
+      <input class="mt-2 w-full border border-slate-300 px-5 py-2 text-sm rounded-md focus:outline-purple-800" placeholder="Full name" type="text"
+        name="name" />
+      <div class="mt-4 flex gap-4 items-center">
+        <button type="button" 
+        class="rounded-md px-5 py-2
+         bg-purple-500 border-0
+          text-white text-sm font-medium
+           hover:bg-purple-600 
+           hover:cursor-pointer 
+           focus:outline-none focus:ring-2
+            focus:ring-purple-300
+             active:bg-purple-800
+             sm:focus:ring-4">
+          Get Started
+        </button>
+        <a class="text-slate-500 text-sm hover:underline focus:outline-none focus:underline focus:underline-offset-2" href="#">Watch Demo</a>
+      </div>
+    </form>
+  </body>
 </html>
